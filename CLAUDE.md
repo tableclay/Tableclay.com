@@ -23,13 +23,27 @@ Before answering, check `/_playbook/` for relevant guidance:
 - `/_playbook/survey_patterns.md` — question phrasing + logic conventions
 - `/_playbook/evidence_rules.md` — citation format + best practices
 - `/_playbook/email_tone.md` — templates + signature conventions
+- `/_playbook/learning_rules.md` — what to save, when to prune
 
-After answering, suggest up to 2 playbook improvements only if they're truly reusable. Use this format:
+## Learning Loop
+We get smarter over time through two layers (see `/_playbook/learning_rules.md` for full rules):
+
+1. **Playbook** (`_playbook/`) — reusable consulting craft (style, formulas, patterns). Permanent but pruned.
+2. **Project memory** (auto memory) — session-to-session context (your preferences, recurring corrections, project conventions). Rolling.
+
+**After each task**, suggest up to 2 improvements only if they pass the save test: reusable, specific, and non-obvious. Use this format:
 ```
 Proposed update (1 sentence):
-Save to: /_playbook/<file>.md
-Text to append (copy/paste):
+Save to: /_playbook/<file>.md  OR  project memory
+Text to append:
 ```
+
+**Saving rules:**
+- Never save silently — always propose, you approve
+- If you correct the same thing twice, I'll proactively propose saving it
+- "Save this" / "Remember this" = save immediately
+- "Clean up playbook" = I propose prunes/merges for your approval
+- Each playbook file stays under ~40 lines; split or prune if it grows
 
 ## Hard Guardrails
 - Do not invent facts, numbers, quotes, or sources
