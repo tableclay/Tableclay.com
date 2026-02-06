@@ -7,6 +7,7 @@ Run this checklist whenever asked to "QC" slides (pasted as images or text).
 - Check subject-verb agreement ("levers work" not "levers works")
 - Check singular/plural consistency ("top 3 brands" not "top 3 brand")
 - Flag missing words ("on the other hand" not "on the other")
+- Brand name accuracy: verify official spelling, capitalization, and spacing (e.g., "Double Stuf" not "double stuff," "MadeGood" not "Made Good")
 
 ## 2. Punctuation & Formatting
 - Consistent dash style: en dash with spaces (" – ") for ranges and lists
