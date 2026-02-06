@@ -1,5 +1,7 @@
 # Quant Math Rules
 
+> **Full reference:** See `/qc-cookbook.md` for the complete cookbook with Excel formulas, RYG thresholds, Z-score normalization, data label formatting, and the full QC checklist.
+
 ## Every Calculation Must Include
 1. **Base definition**: what the denominator is (e.g., "% of total category volume," "% of respondents who purchased in P12M")
 2. **Formula**: written out briefly (e.g., `Brand A volume / Total category volume`)
