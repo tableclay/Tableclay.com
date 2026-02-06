@@ -1,6 +1,6 @@
-# Consulting Quant QC Cookbook
+# Consulting QC Cookbook
 
-A paste-ready reference for the math, formulas, and sanity checks used daily at Seurat Group. Every formula is Excel-native so anyone on the team can use it.
+A paste-ready reference for the quality checks, math, formulas, and sanity checks used daily at Seurat Group. QC = the full sweep (numbers, spelling, grammar, formatting, logic). Every formula is Excel-native so anyone on the team can use it.
 
 ---
 
@@ -17,8 +17,9 @@ A paste-ready reference for the math, formulas, and sanity checks used daily at 
 10. [Survey Quota & Fielding Math](#10-survey-quota--fielding-math)
 11. [Rounding Rules](#11-rounding-rules)
 12. [Base Size Rules](#12-base-size-rules)
-13. [QC Checklist (Run Every Time)](#13-qc-checklist-run-every-time)
-14. [Common Pitfalls](#14-common-pitfalls)
+13. [Spelling & Grammar QC](#13-spelling--grammar-qc)
+14. [QC Checklist (Run Every Time)](#14-qc-checklist-run-every-time)
+15. [Common Pitfalls](#15-common-pitfalls)
 
 ---
 
@@ -399,9 +400,39 @@ Check at 20% fill. Flags:
 
 ---
 
-## 13. QC Checklist (Run Every Time)
+## 13. Spelling & Grammar QC
 
-Before sending any quant output, walk through this:
+Catches that trip up decks more than bad math does. Run a slide-by-slide pass before any client share-out.
+
+### Common Deck Typos
+- **Double spaces** between words (hard to spot, easy to find with Ctrl+H → search for two spaces)
+- **Run-together words** ("Watchout" → "Watch out", "Goto" → "Go to")
+- **Industry-specific misspellings:**
+  - "Confectionary" → **"Confectionery"**
+  - "Deoderant" → **"Deodorant"**
+  - "Hygeine" → **"Hygiene"**
+  - "Recieve" → **"Receive"**
+  - "Seperately" → **"Separately"**
+- **Brand names** — verify capitalization and spelling against official usage (e.g., "Mars Wrigley Confectionery" not "Mars Wrigley Confectionary")
+- **Inconsistent capitalization** — pick one style per deck (Title Case for headers, Sentence case for bullets) and stick to it
+
+### How to Run the Pass
+1. **Read every slide out loud** (catches things your eyes skip)
+2. **Check slide titles separately** — errors here are 10x more visible
+3. **Ctrl+H for double spaces** → replace with single space across the whole deck
+4. **Check source lines and footnotes** — these get copy-pasted and often have stale dates or wrong file names
+5. **Check data labels match the table** — if the table says 23% and the chart says 24%, someone will notice
+
+### Bullet Consistency
+- **Parallel structure:** Every bullet in a group should start the same way (all verbs, all nouns, etc.)
+- **Period consistency:** Either all bullets end with periods or none do (not a mix)
+- **Redundancy:** Don't restate the headline in the first bullet. The headline IS the takeaway; bullets are the proof.
+
+---
+
+## 14. QC Checklist (Run Every Time)
+
+Before sending any deliverable, walk through this:
 
 **The Numbers**
 - [ ] Do shares sum to 98-102%? (rounding tolerance)
@@ -427,7 +458,16 @@ Before sending any quant output, walk through this:
 
 ---
 
-## 14. Common Pitfalls
+**The Copy**
+- [ ] Slide-by-slide spelling pass done? (read out loud)
+- [ ] Double spaces removed? (Ctrl+H)
+- [ ] Brand names spelled correctly?
+- [ ] Bullets are parallel structure?
+- [ ] Source lines have correct dates and file names?
+
+---
+
+## 15. Common Pitfalls
 
 ### 1. Averaging Indices
 **Wrong:** Average two indices (e.g., `(110 + 110) / 2 = 110`)
